@@ -14205,7 +14205,7 @@ p.white {
 }
 
 /*-- container --*/
-.container {
+.container-pwr {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -14427,7 +14427,7 @@ nav {
 .mode-container {
   width: 24px;
   height: 24px;
-  margin-left: 10px;
+  margin-left: 0px;
 }
 
 .gg-sun {
@@ -14570,10 +14570,10 @@ header.active {
 }
 
 .navbar .navbar-brand {
-  margin: 0;
+  margin: 0px;
   padding: 0px;
-  font-size: 32px;
-  font-weight: 700;
+  font-size: 38px;
+  font-weight: 500;
   text-transform: capitalize;
   color: #fff;
   font-family: 'Times New Roman', Times, serif;
@@ -14589,7 +14589,7 @@ header.active {
 }
 
 .navbar .navbar-brand img {
-  max-width: 140px;
+  max-width: 68px;
   transition: all 0.5s ease;
 }
 
@@ -16048,6 +16048,8 @@ body:after {
   font-size: 2.5em;
   color: var(--primary-color);
   margin: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .stats_info:hover span.fa {
@@ -17137,11 +17139,11 @@ body{
 }
 
 /* clients start */
-section .pre-scrollable{
-  height: 100px; /* or any value */
+ .pre-scrollable-clnt{
+   height: 500px;
     overflow-y: auto;
     position: relative;
-    display: contents;
+   
 }
 .container-clients{
   box-sizing: border-box;
@@ -17162,8 +17164,8 @@ section .pre-scrollable{
   
 }
 .w3-card-clients  img{
-  width: 200px;
-  height: 150px;
+  width: 70%;
+  height: 60%;
 }
 
 

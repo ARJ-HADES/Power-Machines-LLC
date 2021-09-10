@@ -14994,12 +14994,12 @@ nav ul li a:hover {
 }
 
 .w3l-main-slider .banner-top1 {
-  background: url(../images/banner2.jpg) no-repeat center;
+  background: url(../images/Power\ Machines.jpg) no-repeat center;
   background-size: cover;
 }
 
 .w3l-main-slider .banner-top2 {
-  background: url(../images/Infrastructure/907-POWERMACHINESLLC01.jpg) no-repeat center;
+  background: url(../images/banner2.jpg) no-repeat center;
   background-size: cover;
 }
 
@@ -17204,7 +17204,63 @@ body{
     display: block;
   }
 }
-
+/* our products */
+.slider-product{
+  height: 250px;
+  margin: auto;
+  position: relative;
+  width: 90%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+.slide-track{
+  display: flex;
+  width: calc(250px * 18);
+  animation: scroll 40s linear infinite;
+}
+.slide-track:hover{
+  animation-play-state: paused;
+}
+@keyframes scroll{
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(calc(-250px*9));
+  }
+}
+.slide-pro{
+  height: 200px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  perspective: 100px;
+}
+img{
+  width: 100%;
+  transition: transform 1s;
+}
+img:hover{
+  transform: translateZ(20px);
+}
+.slider-product::before,
+.slider-product::after{ 
+  content: '';
+  height: 100%;
+  position: absolute;
+  width: 10%;
+  z-index: 2;
+}
+.slider-product::before{
+  left: 0;
+  top: 0;
+}
+.slider-product::after{
+  right: 0;
+  top: 0;
+}
 /* accordion-start */
 
 

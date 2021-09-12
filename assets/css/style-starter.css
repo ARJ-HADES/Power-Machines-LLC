@@ -15007,6 +15007,10 @@ nav ul li a:hover {
   background: url(../images/banner4.jpg) no-repeat center;
   background-size: cover;
 }
+.w3l-main-slider .banner-top4 {
+  background: url(../images/banner5.jpg) no-repeat center;
+  background-size: cover;
+}
 
 .w3l-main-slider .banner-view:before {
   content: "";
@@ -17039,10 +17043,7 @@ form.signin-form {
   }
 }
 /* container-slider start */
-body{
-  font-family: 'Poppins', sans-serif !important;
-  
-}
+
 .container{
   padding-top:10px;
 }
@@ -17052,7 +17053,7 @@ body{
 }
 .slick-slide img{
   height: 20vh;
-  width: 20vh;
+  width: 100%;
 }
 .slick-slider{
   position: relative;
